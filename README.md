@@ -28,6 +28,6 @@ The list is organized as follows:
 ## Solutions
 *To be continued...*
   
-  
+## Footnotes
 <a id="note1" href="#note1ref"><sup>1</sup></a>An example would be the choice of optimization, like SGD will always leads to the minimum norm solution for linear models.
 
