@@ -5,7 +5,7 @@
 ## Introduction
 This list aims to be a curate list focusing on the **systematic bias rooted in deep learning models**. To start with, we define bias as the error between the model prediction and the reality. In the later part of this list, we would give more accurate definitions for bias under different senarios.
 
-On one hand, bias is long assumed to be a unavoidable property of learning models *in the presence of disparity between training and test set*. In the eyes of supporters of [The No Free Lunch Theorem](https://www.wikiwand.com/en/No_free_lunch_in_search_and_optimization), **bias means specialization**, as illustrated in figure 1. It implies that, without prior knowledge (*e.g.* a universal rule), it is impossible to make prediction for any unseen data<a href="#note1" id="note1ref"><sup>1</sup></a>; to make a model to work, we **have to incorporate a preference or bias** through model<a href="#note2" id="note2ref"><sup>2</sup></a> or dataset<a href="#note3" id="note3ref"><sup>3</sup></a> design. (Sometimes, such bias is injected implicitly and we need to identify where the bias resides, which will be covered in [Causes](#Causes).)
+On one hand, bias is long assumed to be a unavoidable property of learning models *in the presence of disparity between training and test set*. In the eyes of supporters of [The No Free Lunch Theorem](https://www.wikiwand.com/en/No_free_lunch_in_search_and_optimization), **bias means specialization**, as illustrated in figure 1. It implies that, without prior knowledge (*e.g.* a universal rule), it is impossible to make prediction for any unseen data<a href="#note1" id="note1ref"><sup>1</sup></a>; to make a model to work, we **have to incorporate a preference or bias** through model<a href="#note2" id="note2ref"><sup>2</sup></a> or dataset<a href="#note3" id="note3ref"><sup>3</sup></a> design, implicitly or explictly. In practice, we need to identify where the bias resides and what its effect is, which will be covered in [Causes](#Causes).
 
 <p align="center">
   <img width="60%" src="https://github.com/ZIYU-DEEP/awesome-bias-in-deep-learning/blob/main/images/NFLT.jpeg">
@@ -14,9 +14,9 @@ On one hand, bias is long assumed to be a unavoidable property of learning model
   Figure 1. Illustration of No Free Lunch Theorem. Adapted from Leon Fedden's <a href="https://medium.com/@LeonFedden/the-no-free-lunch-theorem-62ae2c3ed10c">post</a>.
 </p>
 
-However, there is hope. In theory, [The Free Lunch Theorem](https://machinethoughts.wordpress.com/2014/08/02/the-free-lunch-theorem/) or [Occam Guarantee](https://mcallester.github.io/ttic-31230/Fall2020/07regularization/PACBayes.pdf) claims *there exists some universal algorithm for learning neural networks that succeed in arbitrary domains* with limited training data. In practice, there exist numerous strategies in mitigating known bias from model or dataset design.
+However, there is hope. In theory, [The Free Lunch Theorem](https://machinethoughts.wordpress.com/2014/08/02/the-free-lunch-theorem/) or [Occam Guarantee](https://mcallester.github.io/ttic-31230/Fall2020/07regularization/PACBayes.pdf) claims *there exists some universal algorithm for learning neural networks that succeed in arbitrary domains* with limited training data. In practice, there exist numerous strategies in mitigating known bias from model or dataset design, which will be covered in [Solutions](#Solutions).
 
-This list will be organized as follow:  
+To sum up, this list will be organized as follow:  
 - [Categories](#Categories): a short summary on different aspects or manifestation of bias in deep learning.
 - [Causes](#Causes): theories, conjectures or evidence on the root causes of the bias.  
 - [Solutions](#Solutions): practical solutions or mitigating strategies for the bias.
