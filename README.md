@@ -30,8 +30,10 @@ To sum up, this list will be organized as follow:
 ## Solutions
 ### Model-Driven Solutions
 *To be continued...*
+(A typical example is in negative transfer / catastrophic forgetting problems, in order to maintain the performance of an updated model with an unbiased model, people usually use the strategy of **fine-tuning** or **co-training**.)
 ### Data-Driven Solutions
 *To be continued...*
+(When the bias is known (on a seen specific class), typical strategies include **memory bufferring**, **up-sampling / downsampling**. But when the bias is on unseen data, the strategies are limited. )
     
      
      
