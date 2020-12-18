@@ -14,9 +14,9 @@ On one hand, bias is long assumed to be a unavoidable property of learning model
   Figure 1. Illustration of No Free Lunch Theorem. Adapted from Leon Fedden's <a href="https://medium.com/@LeonFedden/the-no-free-lunch-theorem-62ae2c3ed10c">post</a>.
 </p>
 
-However, there is hope. In theory, [The Free Lunch Theorem](https://machinethoughts.wordpress.com/2014/08/02/the-free-lunch-theorem/) or [Occam Guarantee](https://mcallester.github.io/ttic-31230/Fall2020/07regularization/PACBayes.pdf) claims *there exists some universal algorithm for learning neural networks that succeed in arbitrary domains* with limited training data. In practice, 
+However, there is hope. In theory, [The Free Lunch Theorem](https://machinethoughts.wordpress.com/2014/08/02/the-free-lunch-theorem/) or [Occam Guarantee](https://mcallester.github.io/ttic-31230/Fall2020/07regularization/PACBayes.pdf) claims *there exists some universal algorithm for learning neural networks that succeed in arbitrary domains* with limited training data. In practice, there exist numerous strategies in mitigating known bias from model or dataset design.
 
-The list is organized as follows:  
+This list will be organized as follow:  
 - [Categories](#Categories): a short summary on different aspects or manifestation of bias in deep learning.
 - [Causes](#Causes): theories, conjectures or evidence on the root causes of the bias.  
 - [Solutions](#Solutions): practical solutions or mitigating strategies for the bias.
@@ -37,5 +37,5 @@ The list is organized as follows:
 <a id="note1" href="#note1ref"><sup>1</sup></a> More precisely speaking, there exists a algorithm or function in theory with low error on unseen data from the population, but such a function must be structureless thus we are not able to learn.
 
 <a id="note2" href="#note2ref"><sup>2</sup></a> An example would be the choice of optimization, like SGD will always leads to the minimum norm solution for linear models. <br>
-<a id="note3" href="#note3ref"><sup>3</sup></a> For instance, by introducing additional labeled data in training, anomaly detection models can become more discriminative on certain classes.
+<a id="note3" href="#note3ref"><sup>3</sup></a> For instance, by introducing additional labeled data in training, anomaly detection models can become more discriminative on certain types of anomalies.
 
