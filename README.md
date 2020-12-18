@@ -3,8 +3,9 @@
 <br>
 
 ## Introduction
-This list aims to be a curate list focusing on the **systematic bias rooted in deep learning models**.   
-Let's start by defining bias as the disparity between the model prediction and the reality. In the later part of this list, we would give more accurate definitions for bias under different senarios.
+This list aims to be a curate list focusing on the **systematic bias rooted in deep learning models**. To start with, we define bias as the error between the model prediction and the reality. In the later part of this list, we would give more accurate definitions for bias under different senarios.
+
+In general, bias is long assumed to be a fundamental property of learning models in the presence of disparity between training and test set.
 
 <p align="center">
   <img width="60%" src="https://github.com/ZIYU-DEEP/awesome-bias-in-deep-learning/blob/main/images/NFLT.jpeg">
