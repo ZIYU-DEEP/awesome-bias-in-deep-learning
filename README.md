@@ -11,7 +11,7 @@ This list aims to be a curate list focusing on the **systematic bias rooted in d
 </p>
 
 <p align="center">
-  dfsdfs
+  Illustration of No Free Lunch Theorem. Adapted from Leon Fedden's <a href="https://medium.com/@LeonFedden/the-no-free-lunch-theorem-62ae2c3ed10c">post</a>.
 </p>
 
 The list is organized as follows:  
