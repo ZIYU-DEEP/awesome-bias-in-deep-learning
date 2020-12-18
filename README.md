@@ -22,12 +22,15 @@ This list will be organized as follow:
 - [Solutions](#Solutions): practical solutions or mitigating strategies for the bias.
 
 ## Categories
-*To be continued...*
+*To be continued...* (Topics include dataset bias, exposure bias, expressivity bias, social bias, negative transfer, bias in catastrophic forgetting, bias in anomaly detection, bias in constrastive learning.)
 
 ## Causes
 *To be continued...*
 
 ## Solutions
+### Model-Driven Solutions
+*To be continued...*
+### Data-Driven Solutions
 *To be continued...*
     
      
