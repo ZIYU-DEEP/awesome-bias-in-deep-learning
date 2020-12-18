@@ -8,7 +8,7 @@ This list aims to be a curate list focusing on the **systematic bias rooted in d
 <p align="center">
   <img width="50%" src="https://github.com/ZIYU-DEEP/awesome-bias-in-deep-learning/blob/main/images/NFLT.jpeg">
 </p>
-<p align="center" style="font-size:10px">
+<p align="center" style="font-size:10px color:gray">
   Illustration of No Free Lunch Theorem. Adapted from Leon Fedden's <a href="https://medium.com/@LeonFedden/the-no-free-lunch-theorem-62ae2c3ed10c">post</a>.
 </p>
 
