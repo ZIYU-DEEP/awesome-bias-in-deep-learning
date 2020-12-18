@@ -10,10 +10,9 @@ This list aims to be a curate list focusing on the **systematic bias rooted in d
   <div style='width: 130px; text-align: center;'>Illustration of No Free Lunch Theorem. Adapted from Leon Fedden's <a href="https://medium.com/@LeonFedden/the-no-free-lunch-theorem-62ae2c3ed10c">post</a>.</div>
 </p>
 
-<a style='text-decoration: none; color: orange;'>
-  <img src='https://github.com/ZIYU-DEEP/awesome-bias-in-deep-learning/blob/main/images/NFLT.jpeg' style='width: 140px'>
-  <div style='width: 130px; text-align: center;'>I just love to visit this most beautiful place in all the world.</div>
-</a>
+<p align="center">
+  dfsdfs
+</p>
 
 The list is organized as follows:  
 - [Categories](#Categories): a short summary on different aspects or manifestation of bias in deep learning.
