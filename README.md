@@ -5,7 +5,7 @@
 ## Introduction
 This list aims to be a curate list focusing on the **systematic bias rooted in deep learning models**. To start with, we define bias as the error between the model prediction and the reality. In the later part of this list, we would give more accurate definitions for bias under different senarios.
 
-In general, bias is long assumed to be a fundamental property of learning models *in the presence of disparity between training and test set*. In the eyes of supporters of [No Free Lunch Theorem](https://www.wikiwand.com/en/No_free_lunch_in_search_and_optimization), **bias implies specialization**, as illustrated in figure 1. 
+In general, bias is long assumed to be a fundamental property of learning models *in the presence of disparity between training and test set*. In the eyes of supporters of [No Free Lunch Theorem](https://www.wikiwand.com/en/No_free_lunch_in_search_and_optimization), **bias means specialization**, as illustrated in figure 1. It further implies that, without prior knowledge (*e.g.* a universal rule), it is impossible to make prediction for any unseen data.
 
 <p align="center">
   <img width="60%" src="https://github.com/ZIYU-DEEP/awesome-bias-in-deep-learning/blob/main/images/NFLT.jpeg">
